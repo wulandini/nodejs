@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="card" style="width: 18rem; margin-top: 42px;">
+            <div class="card-body">
+              <h5 class="card-title">Add Product</h5>
+              <form>
+                <div class="form-group">
+                  <label for="productName">Name</label>
+                  <input type="text" class="form-control" id="productName" aria-describedby="productHelp" name="name">
+                  <small id="productHelp" class="form-text text-muted">Enter Product Name.</small>
+                </div>
+                <div class="form-group">
+                  <label for="productPrice">Price</label>
+                  <input type="number" class="form-control" id="productPrice" name="price">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    
+        <table class="table" style="margin-top: 56px;">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Photo</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Example</td>
+              <td>2000</td>
+              <td>-</td>
+              <td>
+                <a href="#" type="button" class="btn btn-danger">Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+</body>
+</html>
